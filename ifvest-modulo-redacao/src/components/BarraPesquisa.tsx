@@ -71,12 +71,12 @@ export function TopicSearchBar({
           className={`btn-filtro ${filtrosAtivos ? "btn-filtro-ativo" : ""}`}
         >
           <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-            <line x1="2" y1="5" x2="18" y2="5" stroke={filtrosAtivos ? "#2d6a4f" : "#999"} strokeWidth="1.4" strokeLinecap="round" />
-            <line x1="4" y1="5" x2="4" y2="2" stroke={filtrosAtivos ? "#2d6a4f" : "#999"} strokeWidth="1.4" strokeLinecap="round" />
-            <line x1="2" y1="10" x2="18" y2="10" stroke={filtrosAtivos ? "#2d6a4f" : "#999"} strokeWidth="1.4" strokeLinecap="round" />
-            <line x1="15" y1="10" x2="15" y2="7" stroke={filtrosAtivos ? "#2d6a4f" : "#999"} strokeWidth="1.4" strokeLinecap="round" />
-            <line x1="2" y1="15" x2="18" y2="15" stroke={filtrosAtivos ? "#2d6a4f" : "#999"} strokeWidth="1.4" strokeLinecap="round" />
-            <line x1="9" y1="15" x2="9" y2="12" stroke={filtrosAtivos ? "#2d6a4f" : "#999"} strokeWidth="1.4" strokeLinecap="round" />
+            <line x1="2" y1="5" x2="18" y2="5" stroke={filtrosAtivos ? "#2d6a4f" : "#696969"} strokeWidth="1.4" strokeLinecap="round" />
+            <line x1="4" y1="5" x2="4" y2="2" stroke={filtrosAtivos ? "#2d6a4f" : "#696969"} strokeWidth="1.4" strokeLinecap="round" />
+            <line x1="2" y1="10" x2="18" y2="10" stroke={filtrosAtivos ? "#2d6a4f" : "#696969"} strokeWidth="1.4" strokeLinecap="round" />
+            <line x1="15" y1="10" x2="15" y2="7" stroke={filtrosAtivos ? "#2d6a4f" : "#696969"} strokeWidth="1.4" strokeLinecap="round" />
+            <line x1="2" y1="15" x2="18" y2="15" stroke={filtrosAtivos ? "#2d6a4f" : "#696969"} strokeWidth="1.4" strokeLinecap="round" />
+            <line x1="9" y1="15" x2="9" y2="12" stroke={filtrosAtivos ? "#2d6a4f" : "#696969"} strokeWidth="1.4" strokeLinecap="round" />
           </svg>
         </button>
       </div>

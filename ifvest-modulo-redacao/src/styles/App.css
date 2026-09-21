@@ -317,6 +317,10 @@
       background: transparent;
     }
 
+    .input-barra-pesquisa::placeholder {
+      color: #696969;
+    }
+
     .btn-filtro {
       background: none;
       border: none;
